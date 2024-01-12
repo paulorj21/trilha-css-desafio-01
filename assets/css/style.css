@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: auto;
+    text-align: center;
+}
+
+body{
+    background-color: black;   
+}
+
+p{
+    color: white;
+}
+
+
+h1{
+    font-family: raleway;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}    
+
+h2{
+    color: #33A8DB;
+    font-family: raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+}    
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url(../images/banner.png);
+    background-size: cover;
+    border-bottom: 1px solid #33A8DB;
+    height: 600px;
+    padding-top: 60px;
+}
+
+.logo{
+    width: 268px;
+    height: 268px;
+    background-color: #00000033;
+    border-radius: 100%;
+    margin: 16px auto;
+}
+
+.logo > img{
+    padding: 27px 10px;
+}
+
+.banner-content{
+    width: 510px;
+    height: 393px;
+}
+
+.banner-content > p{
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 24px 0px;
+    text-align: center;
+}
+
+.banner-content > button{
+    width: 326px;
+    height: 57px;
+    border: 2px solid #3BA1CD;
+    background: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
