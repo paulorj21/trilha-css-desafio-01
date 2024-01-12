@@ -13,7 +13,6 @@ p{
     color: white;
 }
 
-
 h1{
     font-family: raleway;
     font-weight: 900;
@@ -71,7 +70,7 @@ h2{
     width: 326px;
     height: 57px;
     border: 2px solid #3BA1CD;
-    background: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    background: linear-gradient(#3BA1CD, #1572B7);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
