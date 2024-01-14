@@ -14,6 +14,7 @@ p{
     color: white;
     font-size: 16px;
     font-weight: 400;
+    width: 792px;
 }
 
 h1{
@@ -65,6 +66,7 @@ h2{
     font-size: 20px;
     margin: 24px 0px;
     text-align: center;
+    width: fit-content;
 }
 
 .banner-content > button{
@@ -129,4 +131,33 @@ span{
     text-align: left;
     text-transform: lowercase;
     margin: 150px 250px;
+}
+
+#professional-challenges > h2{
+    width: 800px;
+    height: 76px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+#professional-challenges > img{
+    margin-bottom: 40px;
+}
+
+footer{
+    margin-top: 91px;
+    height: 170px;
+    border-top: 1px solid #33A8DB;
+    background: linear-gradient(rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+}
+
+footer > img{
+    margin-top: 59px;
+    margin-bottom: 10px;
+}
+
+a{
+    color: #33A8DB;
+    font-weight: 700;
+    text-decoration: none;
 }
